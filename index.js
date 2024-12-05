@@ -688,10 +688,10 @@ for (let i = 1; i <= 10; i++) {
 // Example Output:
 // 1 2 3 4 5 6 7 8 9 10
 
-for ( let i=1; i<=10; i++){
+// for ( let i=1; i<=10; i++){
     
-        console.log(i)
-    }
+//         console.log(i)
+//     }
 
 
 
@@ -702,6 +702,19 @@ for ( let i=1; i<=10; i++){
 
 // Example Output:
 // The sum is 210
+
+
+let sum = 0;
+
+for ( let i=1; i<=20; i++){
+    sum= sum+i
+    console.log(sum)
+}
+
+
+
+
+
 
 // Exercise 12
 
