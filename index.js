@@ -640,15 +640,15 @@ for (let i = 1; i <= 15; i++) {
 // Bonus: Use a nested for loop to show the tables for every multiplier from
 // 1 to 10 (100 results total).
 
-let urj = 10
-let urjv = 3
+// let urj = 10
+// let urjv = 3
 
 
-for (let i = 1; i <= 10; i++) {
+// for (let i = 1; i <= 10; i++) {
      
-    urjv=urj*i
-    console.log(urjv);
-   }
+//     urjv=urj*i
+//     console.log(urjv);
+//    }
 
   
 
@@ -704,15 +704,12 @@ for (let i = 1; i <= 10; i++) {
 // The sum is 210
 
 
-let sum = 0;
+// let sum = 0;
 
-for ( let i=1; i<=20; i++){
-    sum= sum+i
-    console.log(sum)
-}
-
-
-
+// for ( let i=1; i<=20; i++){
+//     sum= sum+i
+//     console.log(sum)
+// }
 
 
 
@@ -724,12 +721,59 @@ for ( let i=1; i<=20; i++){
 // Example Output:
 // Number of vowels: 3
 
+// let str3 = "hello world bagshaa aaa";
+// console.log(str3.length);
+
+// const vowels1 = "e";
+// const vowels2 = "a";
+// const vowels3 = "o";
+// const vowels4 = "i";
+// const vowels5 = "u";
+// const vowels6 = "y";
+// let vowelsToo = 0;
+
+// for ( let i=0; i<=str3.length; i++){
+//     if (str3[i]==vowels1||str3[i]==vowels2||str3[i]==vowels3||str3[i]==vowels4|| str3[i]==vowels5||str3[i]==vowels6){
+//         vowelsToo=vowelsToo+1
+//     }
+  
+  
+// }
+// console.log("eghsig bna "+vowelsToo)
+
+let str3 = "hello world bagshaa aaa";
+console.log(str3.length);
+
+const vowels1 = "e";
+const vowels2 = "a";
+const vowels3 = "o";
+const vowels4 = "i";
+const vowels5 = "u";
+const vowels6 = "y";
+let vowelsToo = 0;
+
+for ( let i=0; i<=str3.length; i++){
+    if (str3[i]=="a"||str3[i]=="e"||str3[i]=="o"||str3[i]=="i"||str3[i]=="u"||str3[i]=="y"){
+        vowelsToo=vowelsToo+1
+    }
+  
+  
+}
+console.log("eghsig bna "+vowelsToo)
+
 // Exercise 13
 
 // Print Odd Numbers Write a loop to print all odd numbers from 1 to 15.
 
 // Example Output:
 // 1 3 5 7 9 11 13 15
+
+for ( let i=1; i++; i<=15){
+  
+            console.log(i)
+}
+  
+
 
 // Exercise 14
 
